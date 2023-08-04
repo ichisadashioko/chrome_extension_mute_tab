@@ -1,0 +1,18 @@
+{
+    "name": "mute_tab",
+    "version": "0.0.01",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "browser_action": {
+        "default_title": "toggle_mute"
+    },
+    "manifest_version": 2
+}
