@@ -14,5 +14,13 @@
     "browser_action": {
         "default_title": "toggle_mute"
     },
+    "commands": {
+        "toggle_mute": {
+            "suggested_key": {
+                "default": "Ctrl+M"
+            },
+            "description": "toggle_mute"
+        }
+    },
     "manifest_version": 2
 }
